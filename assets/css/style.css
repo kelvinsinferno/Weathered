@@ -1,9 +1,13 @@
 
-
+.jumbotron{
+    text-align: center;
+    background-color: rgb(46, 46, 192);
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 
 #h1Search{
     text-align: center;
-    
 }
 
 button {
@@ -13,12 +17,18 @@ button {
 .current {
     border: solid 2px black;
     text-align: center;
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
 
+.fiveDay {
+    text-align: center;
+    margin: 20px;
 }
 
 .cards{
-    margin:10px;
+    margin:1px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
+

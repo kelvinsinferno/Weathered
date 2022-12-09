@@ -13,50 +13,46 @@
 <!-- jumbotron -->
     <div class="jumbotron jumbotron-fluid">
         <div class="container">
-          <h1 class="display-4">Fluid jumbotron</h1>
-          <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+          <h1 class="display-4">Weathered</h1>
         </div>
       </div>
 
 <!-- main -->
     <div class="container-fluid" id="main">
         <div class="row">
-            <div class="col-4 , left">
+            <div class="col-2 , left">
 <!-- nav bar -->
                 <h1 id="h1Search">Search for a City:</h1>
-                <input class="col-12"></input>
-                <button type="button" class="col-12 btn btn-primary btn-sm">Search</button>
-                <button type="button" class="col-12 btn btn-secondary btn-sm">Atlanta</button>
-                <button type="button" class="col-12 btn btn-secondary btn-sm">Austin</button>
-                <button type="button" class="col-12 btn btn-secondary btn-sm">Chicago</button>
-                <button type="button" class="col-12 btn btn-secondary btn-sm">Denver</button>
-                <button type="button" class="col-12 btn btn-secondary btn-sm">New York</button>
-                <button type="button" class="col-12 btn btn-secondary btn-sm">Orlando</button>
-                <button type="button" class="col-12 btn btn-secondary btn-sm">San Francisco</button>
-                <button type="button" class="col-12 btn btn-secondary btn-sm">Seattle</button>
+                <input class="col-12 input" type="text" id="input" placeholder="Enter Location"></input>
+                <button type="submit" class="col-12 btn btn-primary btn-sm" id="search">Search</button>
+                <button type="button" class="col-12 btn btn-secondary btn-sm" id="atlanta">Atlanta</button>
+                <button type="button" class="col-12 btn btn-secondary btn-sm" id="austin">Austin</button>
+                <button type="button" class="col-12 btn btn-secondary btn-sm" id="chicago">Chicago</button>
+                <button type="button" class="col-12 btn btn-secondary btn-sm" id="denver">Denver</button>
+                <button type="button" class="col-12 btn btn-secondary btn-sm" id="newYork">New York</button>
+                <button type="button" class="col-12 btn btn-secondary btn-sm" id="orlando">Orlando</button>
+                <button type="button" class="col-12 btn btn-secondary btn-sm" id="sanFrancisco">San Francisco</button>
+                <button type="button" class="col-12 btn btn-secondary btn-sm" id="seattle">Seattle</button>
 
             </div>
 
             <div class="col-8 right">
 <!-- Current weather -->            
                 <div class="current">
-                    <h1>Atlanta</h1>
-                    <h3>(9/13/2022)</h3>
-                    <h1>*</h1>
-                    <h3>Temp: 78.62*F</h3>
-                    <h3>Wind: 8.43 MPH</h3>
-                    <h3>Humidity: 44 %</h3>
+                    <h1 id="currentCity">Atlanta</h1>
+                    <h3 id="currentDate">(9/13/2022)</h3>
+                    <ul id="currentWeather"></ul>
                 </div>
-        </div>
+        
                 <br>
 
 <!-- five day forcast -->
-            <div class="5day">
+            <div class="fiveDay">
                 <h1>5-Day Forcast:</h1>
-                <div class="row">
-                    <div class="bg-dark text-light" id="cards">
-                        <div class="cards">
-                            <div class="col-2">
+                <div class="col-12">
+                    <div class="row">
+                        <div class="cards bg-dark text-light">
+                            <div class="col-12">
                                 <h2>9/14/2022</h2>
                                 <h2>*</h2>
                                 <h3>Temp: 78.62*F</h3>
@@ -64,8 +60,8 @@
                                 <h3>Humidity: 44 %</h3>
                             </div>
                         </div>
-                        <div class="cards">
-                            <div class="col-2">
+                        <div class="cards bg-dark text-light">
+                            <div class="col-12">
                                 <h2>9/14/2022</h2>
                                 <h2>*</h2>
                                 <h3>Temp: 78.62*F</h3>
@@ -73,8 +69,8 @@
                                 <h3>Humidity: 44 %</h3>
                             </div>
                         </div>
-                        <div class="cards">
-                            <div class="col-2">
+                        <div class="cards bg-dark text-light">
+                            <div class="col-12">
                                 <h2>9/14/2022</h2>
                                 <h2>*</h2>
                                 <h3>Temp: 78.62*F</h3>
@@ -82,8 +78,8 @@
                                 <h3>Humidity: 44 %</h3>
                             </div>
                         </div>
-                        <div class="cards">
-                            <div class="col-2">
+                        <div class="cards bg-dark text-light">
+                            <div class="col-12">
                                 <h2>9/14/2022</h2>
                                 <h2>*</h2>
                                 <h3>Temp: 78.62*F</h3>
@@ -91,8 +87,8 @@
                                 <h3>Humidity: 44 %</h3>
                             </div>
                         </div>
-                        <div class="cars">
-                            <div class="col-2">
+                        <div class="cards bg-dark text-light">
+                            <div class="col-12">
                                 <h2>9/14/2022</h2>
                                 <h2>*</h2>
                                 <h3>Temp: 78.62*F</h3>
@@ -103,7 +99,7 @@
                     </div>
                 </div>
             </div>
-            
+        </div>     
         
     </div>
 
