@@ -1,34 +1,43 @@
+body {
+    background-color: rgb(126, 196, 100);
+    border: none;
+}
 
-.jumbotron{
+h1 {
     text-align: center;
-    background-color: rgb(46, 46, 192);
+    margin: 40px;
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+    border-radius: 3px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.search {
+    background-color: inherit;
+}
+
+#location {
+    margin-bottom: 5px;
+}
+
+#submit-btn {
+    background-color: #5555a5;
     color: white;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-#h1Search{
-    text-align: center;
-}
-
-button {
+    border: none;
+    border-radius: 3px;
     margin-top: 5px;
 }
 
+.card {
+    background-color: inherit;
+    border: none;
+    text-align: center;
+}
+
 .current {
-    border: solid 2px black;
-    text-align: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    flex: 1 1 0%;
 }
-
-.fiveDay {
-    text-align: center;
-    margin: 20px;
-}
-
-.cards{
-    margin:1px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-}
-
